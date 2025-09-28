@@ -27,8 +27,8 @@
                 }
               },
               "queryRef": "SubgenerosResumo.Quais são os seus subgêneros de terror favoritos?",
-              "nativeQueryRef": "Subgêneros favorito",
-              "displayName": "Subgêneros favorito"
+              "nativeQueryRef": "Subgênero favorito",
+              "displayName": "Subgênero favorito"
             },
             {
               "field": {

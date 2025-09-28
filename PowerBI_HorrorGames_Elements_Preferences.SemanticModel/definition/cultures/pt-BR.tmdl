@@ -2267,7 +2267,7 @@ cultureInfo pt-BR
 			          }
 			        },
 			        {
-			          "Subgêneros favorito": {
+			          "Subgênero favorito": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -2429,24 +2429,256 @@ cultureInfo pt-BR
 			    }
 			  },
 			  "Relationships": {
-			    "dim_usuario_carimbo_de_data_hora_mê_has_dim_usuario_carimbo_de_data_hora_dia": {
+			    "fato_influencia_has_dim_usuario1": {
+			      "Binding": {
+			        "ConceptualEntity": "FatoInfluencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_influencia": {
+			          "Target": {
+			            "Entity": "fato_influencia"
+			          }
+			        },
+			        "dim_usuario": {
+			          "Target": {
+			            "Entity": "dim_usuario"
+			          },
+			          "Nouns": [
+			            {
+			              "user": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_influencia"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_influencias_have_dim_usuarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario"
+			            },
+			            "Object": {
+			              "Role": "fato_influencia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_usuarios_have_fato_influencias"
+			        }
+			      ]
+			    },
+			    "dim_plataforma_has_dim_usuario1": {
+			      "Binding": {
+			        "ConceptualEntity": "DimPlataformas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_plataforma": {
+			          "Target": {
+			            "Entity": "dim_plataforma"
+			          }
+			        },
+			        "dim_usuario": {
+			          "Target": {
+			            "Entity": "dim_usuario"
+			          },
+			          "Nouns": [
+			            {
+			              "user": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_plataforma"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_plataformas_have_dim_usuarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario"
+			            },
+			            "Object": {
+			              "Role": "dim_plataforma"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_usuarios_have_dim_plataformas"
+			        }
+			      ]
+			    },
+			    "dim_motivo_jogo_has_dim_usuario1": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMotivoJogo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motivo_jogo": {
+			          "Target": {
+			            "Entity": "dim_motivo_jogo"
+			          }
+			        },
+			        "dim_usuario": {
+			          "Target": {
+			            "Entity": "dim_usuario"
+			          },
+			          "Nouns": [
+			            {
+			              "user": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motivo_jogo"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_motivo_jogo_have_dim_usuarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario"
+			            },
+			            "Object": {
+			              "Role": "dim_motivo_jogo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_usuarios_have_dim_motivo_jogo"
+			        }
+			      ]
+			    },
+			    "dim_generos_preferido_has_dim_usuario1": {
+			      "Binding": {
+			        "ConceptualEntity": "DimGenerosPreferidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_generos_preferido": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido"
+			          }
+			        },
+			        "dim_usuario": {
+			          "Target": {
+			            "Entity": "dim_usuario"
+			          },
+			          "Nouns": [
+			            {
+			              "user": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_generos_preferido"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_generos_preferidos_have_dim_usuarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario"
+			            },
+			            "Object": {
+			              "Role": "dim_generos_preferido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_usuarios_have_dim_generos_preferidos"
+			        }
+			      ]
+			    },
+			    "dim_usuario_carimbo_de_data_hora_dia_in_dim_usuario_carimbo_de_data_hora_mê": {
 			      "Binding": {
 			        "ConceptualEntity": "DimUsuario"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "dim_usuario.carimbo_de_data_hora.mê": {
-			          "Target": {
-			            "Entity": "dim_usuario.carimbo_de_data_hora.mê"
-			          }
-			        },
 			        "dim_usuario.carimbo_de_data_hora.dia": {
 			          "Target": {
 			            "Entity": "dim_usuario.carimbo_de_data_hora.dia"
 			          }
+			        },
+			        "dim_usuario.carimbo_de_data_hora.mê": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.mê"
+			          }
 			        }
 			      },
 			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        },
 			        {
 			          "Attribute": {
 			            "Subject": {
@@ -2472,11 +2704,31 @@ cultureInfo pt-BR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "dias_have_mê"
+			        }
+			      ]
+			    },
+			    "dim_usuario_carimbo_de_data_hora_mê_in_dim_usuario_carimbo_de_data_hora_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "DimUsuario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_usuario.carimbo_de_data_hora.mê": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.mê"
+			          }
 			        },
+			        "dim_usuario.carimbo_de_data_hora.trimestre": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
 			        {
 			          "Preposition": {
 			            "Subject": {
-			              "Role": "dim_usuario.carimbo_de_data_hora.dia"
+			              "Role": "dim_usuario.carimbo_de_data_hora.mê"
 			            },
 			            "Prepositions": [
 			              {
@@ -2486,33 +2738,13 @@ cultureInfo pt-BR
 			              }
 			            ],
 			            "Object": {
-			              "Role": "dim_usuario.carimbo_de_data_hora.mê"
+			              "Role": "dim_usuario.carimbo_de_data_hora.trimestre"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "dias_are_in_mê"
-			        }
-			      ]
-			    },
-			    "dim_usuario_carimbo_de_data_hora_trimestre_has_dim_usuario_carimbo_de_data_hora_mê": {
-			      "Binding": {
-			        "ConceptualEntity": "DimUsuario"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "dim_usuario.carimbo_de_data_hora.trimestre": {
-			          "Target": {
-			            "Entity": "dim_usuario.carimbo_de_data_hora.trimestre"
-			          }
+			          "ID": "mê_are_in_trimestres"
 			        },
-			        "dim_usuario.carimbo_de_data_hora.mê": {
-			          "Target": {
-			            "Entity": "dim_usuario.carimbo_de_data_hora.mê"
-			          }
-			        }
-			      },
-			      "Phrasings": [
 			        {
 			          "Attribute": {
 			            "Subject": {
@@ -2538,11 +2770,31 @@ cultureInfo pt-BR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "mê_have_trimestres"
+			        }
+			      ]
+			    },
+			    "dim_usuario_carimbo_de_data_hora_trimestre_in_dim_usuario_carimbo_de_data_hora_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "DimUsuario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_usuario.carimbo_de_data_hora.trimestre": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.trimestre"
+			          }
 			        },
+			        "dim_usuario.carimbo_de_data_hora.ano": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
 			        {
 			          "Preposition": {
 			            "Subject": {
-			              "Role": "dim_usuario.carimbo_de_data_hora.mê"
+			              "Role": "dim_usuario.carimbo_de_data_hora.trimestre"
 			            },
 			            "Prepositions": [
 			              {
@@ -2552,33 +2804,13 @@ cultureInfo pt-BR
 			              }
 			            ],
 			            "Object": {
-			              "Role": "dim_usuario.carimbo_de_data_hora.trimestre"
+			              "Role": "dim_usuario.carimbo_de_data_hora.ano"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "mê_are_in_trimestres"
-			        }
-			      ]
-			    },
-			    "dim_usuario_carimbo_de_data_hora_ano_has_dim_usuario_carimbo_de_data_hora_trimestre": {
-			      "Binding": {
-			        "ConceptualEntity": "DimUsuario"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "dim_usuario.carimbo_de_data_hora.ano": {
-			          "Target": {
-			            "Entity": "dim_usuario.carimbo_de_data_hora.ano"
-			          }
+			          "ID": "trimestres_are_in_anos"
 			        },
-			        "dim_usuario.carimbo_de_data_hora.trimestre": {
-			          "Target": {
-			            "Entity": "dim_usuario.carimbo_de_data_hora.trimestre"
-			          }
-			        }
-			      },
-			      "Phrasings": [
 			        {
 			          "Attribute": {
 			            "Subject": {
@@ -2604,26 +2836,6 @@ cultureInfo pt-BR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "trimestres_have_anos"
-			        },
-			        {
-			          "Preposition": {
-			            "Subject": {
-			              "Role": "dim_usuario.carimbo_de_data_hora.trimestre"
-			            },
-			            "Prepositions": [
-			              {
-			                "in": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "dim_usuario.carimbo_de_data_hora.ano"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "trimestres_are_in_anos"
 			        }
 			      ]
 			    },
@@ -2789,218 +3001,6 @@ cultureInfo pt-BR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "carimbo_de_data_horas_have_hierarquia_de_data"
-			        }
-			      ]
-			    },
-			    "fato_influencia_has_dim_usuario": {
-			      "Binding": {
-			        "ConceptualEntity": "FatoInfluencia"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "fato_influencia": {
-			          "Target": {
-			            "Entity": "fato_influencia"
-			          }
-			        },
-			        "dim_usuario": {
-			          "Target": {
-			            "Entity": "dim_usuario"
-			          },
-			          "Nouns": [
-			            {
-			              "user": {
-			                "State": "Generated"
-			              }
-			            }
-			          ]
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "fato_influencia"
-			            },
-			            "Object": {
-			              "Role": "dim_usuario"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "fato_influencias_have_dim_usuarios"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "dim_usuario"
-			            },
-			            "Object": {
-			              "Role": "fato_influencia"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dim_usuarios_have_fato_influencias"
-			        }
-			      ]
-			    },
-			    "dim_plataforma_has_dim_usuario": {
-			      "Binding": {
-			        "ConceptualEntity": "DimPlataformas"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "dim_plataforma": {
-			          "Target": {
-			            "Entity": "dim_plataforma"
-			          }
-			        },
-			        "dim_usuario": {
-			          "Target": {
-			            "Entity": "dim_usuario"
-			          },
-			          "Nouns": [
-			            {
-			              "user": {
-			                "State": "Generated"
-			              }
-			            }
-			          ]
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "dim_plataforma"
-			            },
-			            "Object": {
-			              "Role": "dim_usuario"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dim_plataformas_have_dim_usuarios"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "dim_usuario"
-			            },
-			            "Object": {
-			              "Role": "dim_plataforma"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dim_usuarios_have_dim_plataformas"
-			        }
-			      ]
-			    },
-			    "dim_motivo_jogo_has_dim_usuario": {
-			      "Binding": {
-			        "ConceptualEntity": "DimMotivoJogo"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "dim_motivo_jogo": {
-			          "Target": {
-			            "Entity": "dim_motivo_jogo"
-			          }
-			        },
-			        "dim_usuario": {
-			          "Target": {
-			            "Entity": "dim_usuario"
-			          },
-			          "Nouns": [
-			            {
-			              "user": {
-			                "State": "Generated"
-			              }
-			            }
-			          ]
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "dim_motivo_jogo"
-			            },
-			            "Object": {
-			              "Role": "dim_usuario"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dim_motivo_jogo_have_dim_usuarios"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "dim_usuario"
-			            },
-			            "Object": {
-			              "Role": "dim_motivo_jogo"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dim_usuarios_have_dim_motivo_jogo"
-			        }
-			      ]
-			    },
-			    "dim_generos_preferido_has_dim_usuario": {
-			      "Binding": {
-			        "ConceptualEntity": "DimGenerosPreferidos"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "dim_generos_preferido": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido"
-			          }
-			        },
-			        "dim_usuario": {
-			          "Target": {
-			            "Entity": "dim_usuario"
-			          },
-			          "Nouns": [
-			            {
-			              "user": {
-			                "State": "Generated"
-			              }
-			            }
-			          ]
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "dim_generos_preferido"
-			            },
-			            "Object": {
-			              "Role": "dim_usuario"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dim_generos_preferidos_have_dim_usuarios"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "dim_usuario"
-			            },
-			            "Object": {
-			              "Role": "dim_generos_preferido"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dim_usuarios_have_dim_generos_preferidos"
 			        }
 			      ]
 			    },
@@ -3199,39 +3199,6 @@ cultureInfo pt-BR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "dim_generos_preferidos_have_subgenero_mais_frequente"
-			        }
-			      ]
-			    },
-			    "dim_generos_preferido_has_column_1": {
-			      "Binding": {
-			        "ConceptualEntity": "DimGenerosPreferidos"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "dim_generos_preferido": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido"
-			          }
-			        },
-			        "dim_generos_preferido.column_1": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido.column_1"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "dim_generos_preferido"
-			            },
-			            "Object": {
-			              "Role": "dim_generos_preferido.column_1"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dim_generos_preferidos_have_column_1"
 			        }
 			      ]
 			    },
@@ -3826,270 +3793,6 @@ cultureInfo pt-BR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "dim_usuarios_have_carimbo_de_data_horas"
-			        }
-			      ]
-			    },
-			    "dim_generos_preferido_has_você_prefere_jogar_mais_jogos_de_terror_sozinho_ou_acompanhado_por_quê": {
-			      "Binding": {
-			        "ConceptualEntity": "DimGenerosPreferidos"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "dim_generos_preferido": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido"
-			          }
-			        },
-			        "dim_generos_preferido.você_prefere_jogar_mais_jogos_de_terror_sozinho_ou_acompanhado_por_quê": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido.você_prefere_jogar_mais_jogos_de_terror_sozinho_ou_acompanhado_por_quê"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "dim_generos_preferido"
-			            },
-			            "Object": {
-			              "Role": "dim_generos_preferido.você_prefere_jogar_mais_jogos_de_terror_sozinho_ou_acompanhado_por_quê"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dim_generos_preferidos_have_você_prefere_jogar_mais_jogos_de_terror_sozinho_ou_acompanhado_por_quê"
-			        }
-			      ]
-			    },
-			    "dim_generos_preferido_has_como_você_se_sente_quando_joga_acompanhado": {
-			      "Binding": {
-			        "ConceptualEntity": "DimGenerosPreferidos"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "dim_generos_preferido": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido"
-			          }
-			        },
-			        "dim_generos_preferido.como_você_se_sente_quando_joga_acompanhado": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido.como_você_se_sente_quando_joga_acompanhado"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "dim_generos_preferido"
-			            },
-			            "Object": {
-			              "Role": "dim_generos_preferido.como_você_se_sente_quando_joga_acompanhado"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dim_generos_preferidos_have_como_você_se_sente_quando_joga_acompanhado"
-			        }
-			      ]
-			    },
-			    "dim_generos_preferido_has_como_você_se_sente_quando_joga_sozinho": {
-			      "Binding": {
-			        "ConceptualEntity": "DimGenerosPreferidos"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "dim_generos_preferido": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido"
-			          }
-			        },
-			        "dim_generos_preferido.como_você_se_sente_quando_joga_sozinho": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido.como_você_se_sente_quando_joga_sozinho"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "dim_generos_preferido"
-			            },
-			            "Object": {
-			              "Role": "dim_generos_preferido.como_você_se_sente_quando_joga_sozinho"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dim_generos_preferidos_have_como_você_se_sente_quando_joga_sozinho"
-			        }
-			      ]
-			    },
-			    "dim_generos_preferido_has_quais_jogos_de_terror_você_não_gosta_por_quê": {
-			      "Binding": {
-			        "ConceptualEntity": "DimGenerosPreferidos"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "dim_generos_preferido": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido"
-			          }
-			        },
-			        "dim_generos_preferido.quais_jogos_de_terror_você_não_gosta_por_quê": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido.quais_jogos_de_terror_você_não_gosta_por_quê"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "dim_generos_preferido"
-			            },
-			            "Object": {
-			              "Role": "dim_generos_preferido.quais_jogos_de_terror_você_não_gosta_por_quê"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dim_generos_preferidos_have_quais_jogos_de_terror_você_não_gosta_por_quê"
-			        }
-			      ]
-			    },
-			    "dim_generos_preferido_has_quais_são_os_seus_jogos_de_terror_favoritos_por_quê": {
-			      "Binding": {
-			        "ConceptualEntity": "DimGenerosPreferidos"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "dim_generos_preferido": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido"
-			          }
-			        },
-			        "dim_generos_preferido.quais_são_os_seus_jogos_de_terror_favoritos_por_quê": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido.quais_são_os_seus_jogos_de_terror_favoritos_por_quê"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "dim_generos_preferido"
-			            },
-			            "Object": {
-			              "Role": "dim_generos_preferido.quais_são_os_seus_jogos_de_terror_favoritos_por_quê"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dim_generos_preferidos_have_quais_são_os_seus_jogos_de_terror_favoritos_por_quê"
-			        }
-			      ]
-			    },
-			    "dim_generos_preferido_has_quais_são_os_seus_jogos_favoritos_no_geral_por_quê": {
-			      "Binding": {
-			        "ConceptualEntity": "DimGenerosPreferidos"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "dim_generos_preferido": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido"
-			          }
-			        },
-			        "dim_generos_preferido.quais_são_os_seus_jogos_favoritos_no_geral_por_quê": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido.quais_são_os_seus_jogos_favoritos_no_geral_por_quê"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "dim_generos_preferido"
-			            },
-			            "Object": {
-			              "Role": "dim_generos_preferido.quais_são_os_seus_jogos_favoritos_no_geral_por_quê"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dim_generos_preferidos_have_quais_são_os_seus_jogos_favoritos_no_geral_por_quê"
-			        }
-			      ]
-			    },
-			    "dim_generos_preferido_has_se_você_não_joga_qual_o_motivo_que_te_impede": {
-			      "Binding": {
-			        "ConceptualEntity": "DimGenerosPreferidos"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "dim_generos_preferido": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido"
-			          }
-			        },
-			        "dim_generos_preferido.se_você_não_joga_qual_o_motivo_que_te_impede": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido.se_você_não_joga_qual_o_motivo_que_te_impede"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "dim_generos_preferido"
-			            },
-			            "Object": {
-			              "Role": "dim_generos_preferido.se_você_não_joga_qual_o_motivo_que_te_impede"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dim_generos_preferidos_have_se_você_não_joga_qual_o_motivo_que_te_impede"
-			        }
-			      ]
-			    },
-			    "dim_generos_preferido_has_por_qual_motivo_você_joga_jogos_de_terror": {
-			      "Binding": {
-			        "ConceptualEntity": "DimGenerosPreferidos"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "dim_generos_preferido": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido"
-			          }
-			        },
-			        "dim_generos_preferido.por_qual_motivo_você_joga_jogos_de_terror": {
-			          "Target": {
-			            "Entity": "dim_generos_preferido.por_qual_motivo_você_joga_jogos_de_terror"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "dim_generos_preferido"
-			            },
-			            "Object": {
-			              "Role": "dim_generos_preferido.por_qual_motivo_você_joga_jogos_de_terror"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dim_generos_preferidos_have_por_qual_motivo_você_joga_jogos_de_terror"
 			        }
 			      ]
 			    },
