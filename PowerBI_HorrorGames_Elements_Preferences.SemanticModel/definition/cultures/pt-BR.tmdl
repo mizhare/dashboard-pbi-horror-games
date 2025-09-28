@@ -1,0 +1,4170 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "dim_generos_preferido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimGenerosPreferidos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim generos preferido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dim genero preferido": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "DimGenerosPreferidos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_generos_preferido.user_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimGenerosPreferidos",
+			          "ConceptualProperty": "User_ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "user ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "User_ID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "user": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "user identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "operator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "employer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manipulator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "handler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manager": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "dim_generos_preferido.quais_são_os_seus_subgêneros_de_terror_favoritos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimGenerosPreferidos",
+			          "ConceptualProperty": "Quais são os seus subgêneros de terror favoritos?"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quais são os seus subgêneros de terror favoritos?": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Quai são os seus subgênero de terror favorito?": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "dim_generos_preferido.exemplos_jogo_de_terror": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimGenerosPreferidos",
+			          "ConceptualProperty": "Exemplos jogo de terror"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "exemplos jogo de terror": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "exemplo jogo de terror": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "exemplo jogo de horror": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "exemplo jogo de trepidation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "exemplo jogo de fear": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "exemplo jogo de dread": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "exemplo jogo de fright": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "exemplo jogo de alarm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "exemplo jogo de shock": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "exemplo jogo de panic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "exemplo jogo de pest": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "exemplo jogo de nuisance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        }
+			      ]
+			    },
+			    "dim_usuario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimUsuario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim usuario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DimUsuario": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_usuario.carimbo_de_data_hora": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimUsuario",
+			          "ConceptualProperty": "Carimbo de data/hora"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "carimbo de data/hora": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "carimbo de data": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "carimbo de data hora": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hora": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "carimbo de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "carimbo de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "carimbo de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "carimbo de information /hora": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "carimbo de fact /hora": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "carimbo de info /hora": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_usuario.carimbo_de_data_hora.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimUsuario",
+			          "VariationSource": "Carimbo de data/hora",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "dim_usuario.carimbo_de_data_hora.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimUsuario",
+			          "VariationSource": "Carimbo de data/hora",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "carimbo de data/hora ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "carimbo de data": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "carimbo de data hora ano": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hora ano": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "carimbo de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "carimbo de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "carimbo de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "carimbo de information hora ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "carimbo de fact hora ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "carimbo de info hora ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        }
+			      ]
+			    },
+			    "dim_usuario.carimbo_de_data_hora.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimUsuario",
+			          "VariationSource": "Carimbo de data/hora",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "carimbo de data/hora trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "carimbo de data": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "carimbo de data hora trimestre": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hora trimestre": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "carimbo de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "carimbo de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "carimbo de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "carimbo de information hora trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "carimbo de fact hora trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "carimbo de info hora trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        }
+			      ]
+			    },
+			    "dim_usuario.carimbo_de_data_hora.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimUsuario",
+			          "VariationSource": "Carimbo de data/hora",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "carimbo de data/hora mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "carimbo de data": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "carimbo de data hora mê": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hora mê": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "carimbo de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "carimbo de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "carimbo de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "carimbo de information hora mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "carimbo de fact hora mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "carimbo de info hora mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        }
+			      ]
+			    },
+			    "dim_usuario.carimbo_de_data_hora.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimUsuario",
+			          "VariationSource": "Carimbo de data/hora",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "carimbo de data/hora dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "carimbo de data": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "carimbo de data hora dia": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hora dia": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "carimbo de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "carimbo de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "carimbo de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "carimbo de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "carimbo de information hora dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "carimbo de fact hora dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "carimbo de info hora dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        }
+			      ]
+			    },
+			    "dim_usuario.user_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimUsuario",
+			          "ConceptualProperty": "User_ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "User_ID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "user": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "user identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "operator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "employer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manipulator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "handler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manager": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "dim_usuario.qual_o_seu_gênero": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimUsuario",
+			          "ConceptualProperty": "Qual o seu gênero?"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qual o seu gênero?": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Gênero": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_usuario.idade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimUsuario",
+			          "ConceptualProperty": "Idade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "idade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_usuario.medo_fobia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimUsuario",
+			          "ConceptualProperty": "Medo/Fobia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medo/fobia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "medo": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "medo fobia": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fobia": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "dim_usuario.altera_ambiente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimUsuario",
+			          "ConceptualProperty": "Altera ambiente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "altera ambiente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_motivo_jogo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMotivoJogo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim motivo jogo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DimMotivoJogo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_motivo_jogo.user_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMotivoJogo",
+			          "ConceptualProperty": "User_ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "user ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "User_ID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "user": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "user identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "operator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "employer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manipulator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "handler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manager": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "dim_motivo_jogo.motivação": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMotivoJogo",
+			          "ConceptualProperty": "Motivação"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "motivação": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_plataforma": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimPlataformas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim plataforma": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DimPlataformas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_plataforma.user_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimPlataformas",
+			          "ConceptualProperty": "User_ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "user ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "User_ID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "user": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "user identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "operator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "employer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manipulator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "handler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manager": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "dim_plataforma.frequência": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimPlataformas",
+			          "ConceptualProperty": "Frequência"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "frequência": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_plataforma.plataforma": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimPlataformas",
+			          "ConceptualProperty": "Plataforma"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "plataforma": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_influencia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatoInfluencia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fato influencia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FatoInfluencia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fato_influencia.influencia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatoInfluencia",
+			          "ConceptualProperty": "Influencia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "influencia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Elementos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fato_influencia.grau": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatoInfluencia",
+			          "ConceptualProperty": "Grau"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "grau": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_influencia.count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatoInfluencia",
+			          "ConceptualProperty": "Count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "count": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fato_influencia.user_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatoInfluencia",
+			          "ConceptualProperty": "User_ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "user ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "User_ID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "user": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "user identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "operator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "employer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manipulator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "handler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manager": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "fato_influencia.top": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatoInfluencia",
+			          "ConceptualProperty": "Top"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "best": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "leading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "peak": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "upper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "fato_influencia.top_5": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FatoInfluencia",
+			          "ConceptualProperty": "Top5"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top 5": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Top5": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "best 5": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "first 5": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "leading 5": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "maximum 5": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "peak 5": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "upper 5": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "dim_usuario.companhia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimUsuario",
+			          "ConceptualProperty": "Companhia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "companhia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_plataforma.coluna": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimPlataformas",
+			          "ConceptualProperty": "Coluna"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "coluna": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_plataforma.frequencia_ordem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimPlataformas",
+			          "ConceptualProperty": "FrequenciaOrdem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "frequencia ordem": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FrequenciaOrdem": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_plataforma.frequencia_ordenada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimPlataformas",
+			          "ConceptualProperty": "FrequenciaOrdenada"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "frequencia ordenada": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FrequenciaOrdenada": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Frequência": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_generos_preferido.subgenero_mais_frequente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimGenerosPreferidos",
+			          "ConceptualProperty": "SubgeneroMaisFrequente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "subgenero mais frequente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SubgeneroMaisFrequente": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_usuario.altera_ambiente_mais_frequente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimUsuario",
+			          "ConceptualProperty": "AlteraAmbienteMaisFrequente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "altera ambiente mais frequente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AlteraAmbienteMaisFrequente": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_motivo_jogo.motivacao_mais_frequente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DimMotivoJogo",
+			          "ConceptualProperty": "MotivacaoMaisFrequente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "motivacao mais frequente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MotivacaoMaisFrequente": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "subgeneros_resumo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "SubgenerosResumo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "subgeneros resumo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "subgenero resumo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "SubgenerosResumo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "subgeneros_resumo.quais_são_os_seus_subgêneros_de_terror_favoritos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "SubgenerosResumo",
+			          "ConceptualProperty": "Quais são os seus subgêneros de terror favoritos?"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quais são os seus subgêneros de terror favoritos?": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Quai são os seus subgênero de terror favorito?": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Subgêneros favorito": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "subgeneros_resumo.exemplos_jogo_de_terror": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "SubgenerosResumo",
+			          "ConceptualProperty": "Exemplos jogo de terror"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "exemplos jogo de terror": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "exemplo jogo de terror": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "exemplo jogo de horror": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "exemplo jogo de trepidation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "exemplo jogo de fear": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "exemplo jogo de dread": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "exemplo jogo de fright": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "exemplo jogo de alarm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "exemplo jogo de shock": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "exemplo jogo de panic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "exemplo jogo de pest": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "exemplo jogo de nuisance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "Exemplos jogos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "subgeneros_resumo.qtd": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "SubgenerosResumo",
+			          "ConceptualProperty": "Qtd"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtd": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "dim_usuario_carimbo_de_data_hora_mê_has_dim_usuario_carimbo_de_data_hora_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "DimUsuario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_usuario.carimbo_de_data_hora.mê": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.mê"
+			          }
+			        },
+			        "dim_usuario.carimbo_de_data_hora.dia": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.mê"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.dia"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    },
+			    "dim_usuario_carimbo_de_data_hora_trimestre_has_dim_usuario_carimbo_de_data_hora_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "DimUsuario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_usuario.carimbo_de_data_hora.trimestre": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.trimestre"
+			          }
+			        },
+			        "dim_usuario.carimbo_de_data_hora.mê": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.trimestre"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.mê"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "dim_usuario_carimbo_de_data_hora_ano_has_dim_usuario_carimbo_de_data_hora_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "DimUsuario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_usuario.carimbo_de_data_hora.ano": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.ano"
+			          }
+			        },
+			        "dim_usuario.carimbo_de_data_hora.trimestre": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.ano"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.trimestre"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "dim_usuario_carimbo_de_data_hora_hierarquia_de_data_has_dim_usuario_carimbo_de_data_hora_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "DimUsuario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_usuario.carimbo_de_data_hora.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.hierarquia_de_data"
+			          }
+			        },
+			        "dim_usuario.carimbo_de_data_hora.dia": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "dim_usuario_carimbo_de_data_hora_hierarquia_de_data_has_dim_usuario_carimbo_de_data_hora_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "DimUsuario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_usuario.carimbo_de_data_hora.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.hierarquia_de_data"
+			          }
+			        },
+			        "dim_usuario.carimbo_de_data_hora.mê": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "dim_usuario_carimbo_de_data_hora_hierarquia_de_data_has_dim_usuario_carimbo_de_data_hora_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "DimUsuario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_usuario.carimbo_de_data_hora.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.hierarquia_de_data"
+			          }
+			        },
+			        "dim_usuario.carimbo_de_data_hora.trimestre": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "dim_usuario_carimbo_de_data_hora_hierarquia_de_data_has_dim_usuario_carimbo_de_data_hora_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "DimUsuario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_usuario.carimbo_de_data_hora.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.hierarquia_de_data"
+			          }
+			        },
+			        "dim_usuario.carimbo_de_data_hora.ano": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "dim_usuario_carimbo_de_data_hora_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "DimUsuario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_usuario.carimbo_de_data_hora": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora"
+			          }
+			        },
+			        "dim_usuario.carimbo_de_data_hora.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario.carimbo_de_data_hora"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.carimbo_de_data_hora.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "carimbo_de_data_horas_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "fato_influencia_has_dim_usuario": {
+			      "Binding": {
+			        "ConceptualEntity": "FatoInfluencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_influencia": {
+			          "Target": {
+			            "Entity": "fato_influencia"
+			          }
+			        },
+			        "dim_usuario": {
+			          "Target": {
+			            "Entity": "dim_usuario"
+			          },
+			          "Nouns": [
+			            {
+			              "user": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_influencia"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_influencias_have_dim_usuarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario"
+			            },
+			            "Object": {
+			              "Role": "fato_influencia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_usuarios_have_fato_influencias"
+			        }
+			      ]
+			    },
+			    "dim_plataforma_has_dim_usuario": {
+			      "Binding": {
+			        "ConceptualEntity": "DimPlataformas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_plataforma": {
+			          "Target": {
+			            "Entity": "dim_plataforma"
+			          }
+			        },
+			        "dim_usuario": {
+			          "Target": {
+			            "Entity": "dim_usuario"
+			          },
+			          "Nouns": [
+			            {
+			              "user": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_plataforma"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_plataformas_have_dim_usuarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario"
+			            },
+			            "Object": {
+			              "Role": "dim_plataforma"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_usuarios_have_dim_plataformas"
+			        }
+			      ]
+			    },
+			    "dim_motivo_jogo_has_dim_usuario": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMotivoJogo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motivo_jogo": {
+			          "Target": {
+			            "Entity": "dim_motivo_jogo"
+			          }
+			        },
+			        "dim_usuario": {
+			          "Target": {
+			            "Entity": "dim_usuario"
+			          },
+			          "Nouns": [
+			            {
+			              "user": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motivo_jogo"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_motivo_jogo_have_dim_usuarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario"
+			            },
+			            "Object": {
+			              "Role": "dim_motivo_jogo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_usuarios_have_dim_motivo_jogo"
+			        }
+			      ]
+			    },
+			    "dim_generos_preferido_has_dim_usuario": {
+			      "Binding": {
+			        "ConceptualEntity": "DimGenerosPreferidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_generos_preferido": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido"
+			          }
+			        },
+			        "dim_usuario": {
+			          "Target": {
+			            "Entity": "dim_usuario"
+			          },
+			          "Nouns": [
+			            {
+			              "user": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_generos_preferido"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_generos_preferidos_have_dim_usuarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario"
+			            },
+			            "Object": {
+			              "Role": "dim_generos_preferido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_usuarios_have_dim_generos_preferidos"
+			        }
+			      ]
+			    },
+			    "subgeneros_resumo_has_qtd": {
+			      "Binding": {
+			        "ConceptualEntity": "SubgenerosResumo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "subgeneros_resumo": {
+			          "Target": {
+			            "Entity": "subgeneros_resumo"
+			          }
+			        },
+			        "subgeneros_resumo.qtd": {
+			          "Target": {
+			            "Entity": "subgeneros_resumo.qtd"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "subgeneros_resumo"
+			            },
+			            "Object": {
+			              "Role": "subgeneros_resumo.qtd"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "subgeneros_resumos_have_qtds"
+			        }
+			      ]
+			    },
+			    "subgeneros_resumo_has_exemplos_jogo_de_terror": {
+			      "Binding": {
+			        "ConceptualEntity": "SubgenerosResumo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "subgeneros_resumo": {
+			          "Target": {
+			            "Entity": "subgeneros_resumo"
+			          }
+			        },
+			        "subgeneros_resumo.exemplos_jogo_de_terror": {
+			          "Target": {
+			            "Entity": "subgeneros_resumo.exemplos_jogo_de_terror"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "subgeneros_resumo"
+			            },
+			            "Object": {
+			              "Role": "subgeneros_resumo.exemplos_jogo_de_terror"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "subgeneros_resumos_have_exemplos_jogo_de_terrors"
+			        }
+			      ]
+			    },
+			    "subgeneros_resumo_has_quais_são_os_seus_subgêneros_de_terror_favoritos": {
+			      "Binding": {
+			        "ConceptualEntity": "SubgenerosResumo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "subgeneros_resumo": {
+			          "Target": {
+			            "Entity": "subgeneros_resumo"
+			          }
+			        },
+			        "subgeneros_resumo.quais_são_os_seus_subgêneros_de_terror_favoritos": {
+			          "Target": {
+			            "Entity": "subgeneros_resumo.quais_são_os_seus_subgêneros_de_terror_favoritos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "subgeneros_resumo"
+			            },
+			            "Object": {
+			              "Role": "subgeneros_resumo.quais_são_os_seus_subgêneros_de_terror_favoritos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "subgeneros_resumos_have_quais_são_os_seus_subgêneros_de_terror_favoritos"
+			        }
+			      ]
+			    },
+			    "dim_motivo_jogo_has_motivacao_mais_frequente": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMotivoJogo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motivo_jogo": {
+			          "Target": {
+			            "Entity": "dim_motivo_jogo"
+			          }
+			        },
+			        "dim_motivo_jogo.motivacao_mais_frequente": {
+			          "Target": {
+			            "Entity": "dim_motivo_jogo.motivacao_mais_frequente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motivo_jogo"
+			            },
+			            "Object": {
+			              "Role": "dim_motivo_jogo.motivacao_mais_frequente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_motivo_jogo_have_motivacao_mais_frequente"
+			        }
+			      ]
+			    },
+			    "dim_usuario_has_altera_ambiente_mais_frequente": {
+			      "Binding": {
+			        "ConceptualEntity": "DimUsuario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_usuario": {
+			          "Target": {
+			            "Entity": "dim_usuario"
+			          }
+			        },
+			        "dim_usuario.altera_ambiente_mais_frequente": {
+			          "Target": {
+			            "Entity": "dim_usuario.altera_ambiente_mais_frequente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.altera_ambiente_mais_frequente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_usuarios_have_altera_ambiente_mais_frequente"
+			        }
+			      ]
+			    },
+			    "dim_generos_preferido_has_subgenero_mais_frequente": {
+			      "Binding": {
+			        "ConceptualEntity": "DimGenerosPreferidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_generos_preferido": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido"
+			          }
+			        },
+			        "dim_generos_preferido.subgenero_mais_frequente": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido.subgenero_mais_frequente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_generos_preferido"
+			            },
+			            "Object": {
+			              "Role": "dim_generos_preferido.subgenero_mais_frequente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_generos_preferidos_have_subgenero_mais_frequente"
+			        }
+			      ]
+			    },
+			    "dim_generos_preferido_has_column_1": {
+			      "Binding": {
+			        "ConceptualEntity": "DimGenerosPreferidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_generos_preferido": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido"
+			          }
+			        },
+			        "dim_generos_preferido.column_1": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido.column_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_generos_preferido"
+			            },
+			            "Object": {
+			              "Role": "dim_generos_preferido.column_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_generos_preferidos_have_column_1"
+			        }
+			      ]
+			    },
+			    "dim_plataforma_has_frequencia_ordenada": {
+			      "Binding": {
+			        "ConceptualEntity": "DimPlataformas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_plataforma": {
+			          "Target": {
+			            "Entity": "dim_plataforma"
+			          }
+			        },
+			        "dim_plataforma.frequencia_ordenada": {
+			          "Target": {
+			            "Entity": "dim_plataforma.frequencia_ordenada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_plataforma"
+			            },
+			            "Object": {
+			              "Role": "dim_plataforma.frequencia_ordenada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_plataformas_have_frequencia_ordenadas"
+			        }
+			      ]
+			    },
+			    "dim_plataforma_has_frequencia_ordem": {
+			      "Binding": {
+			        "ConceptualEntity": "DimPlataformas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_plataforma": {
+			          "Target": {
+			            "Entity": "dim_plataforma"
+			          }
+			        },
+			        "dim_plataforma.frequencia_ordem": {
+			          "Target": {
+			            "Entity": "dim_plataforma.frequencia_ordem"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_plataforma"
+			            },
+			            "Object": {
+			              "Role": "dim_plataforma.frequencia_ordem"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_plataformas_have_frequencia_ordems"
+			        }
+			      ]
+			    },
+			    "dim_plataforma_has_coluna": {
+			      "Binding": {
+			        "ConceptualEntity": "DimPlataformas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_plataforma": {
+			          "Target": {
+			            "Entity": "dim_plataforma"
+			          }
+			        },
+			        "dim_plataforma.coluna": {
+			          "Target": {
+			            "Entity": "dim_plataforma.coluna"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_plataforma"
+			            },
+			            "Object": {
+			              "Role": "dim_plataforma.coluna"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_plataformas_have_colunas"
+			        }
+			      ]
+			    },
+			    "dim_usuario_has_companhia": {
+			      "Binding": {
+			        "ConceptualEntity": "DimUsuario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_usuario": {
+			          "Target": {
+			            "Entity": "dim_usuario"
+			          }
+			        },
+			        "dim_usuario.companhia": {
+			          "Target": {
+			            "Entity": "dim_usuario.companhia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.companhia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_usuarios_have_companhias"
+			        }
+			      ]
+			    },
+			    "fato_influencia_has_top_5": {
+			      "Binding": {
+			        "ConceptualEntity": "FatoInfluencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_influencia": {
+			          "Target": {
+			            "Entity": "fato_influencia"
+			          }
+			        },
+			        "fato_influencia.top_5": {
+			          "Target": {
+			            "Entity": "fato_influencia.top_5"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_influencia"
+			            },
+			            "Object": {
+			              "Role": "fato_influencia.top_5"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_influencias_have_top_5"
+			        }
+			      ]
+			    },
+			    "fato_influencia_has_top": {
+			      "Binding": {
+			        "ConceptualEntity": "FatoInfluencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_influencia": {
+			          "Target": {
+			            "Entity": "fato_influencia"
+			          }
+			        },
+			        "fato_influencia.top": {
+			          "Target": {
+			            "Entity": "fato_influencia.top"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_influencia"
+			            },
+			            "Object": {
+			              "Role": "fato_influencia.top"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_influencias_have_top"
+			        }
+			      ]
+			    },
+			    "fato_influencia_has_count": {
+			      "Binding": {
+			        "ConceptualEntity": "FatoInfluencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_influencia": {
+			          "Target": {
+			            "Entity": "fato_influencia"
+			          }
+			        },
+			        "fato_influencia.count": {
+			          "Target": {
+			            "Entity": "fato_influencia.count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_influencia"
+			            },
+			            "Object": {
+			              "Role": "fato_influencia.count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_influencias_have_counts"
+			        }
+			      ]
+			    },
+			    "fato_influencia_has_grau": {
+			      "Binding": {
+			        "ConceptualEntity": "FatoInfluencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_influencia": {
+			          "Target": {
+			            "Entity": "fato_influencia"
+			          }
+			        },
+			        "fato_influencia.grau": {
+			          "Target": {
+			            "Entity": "fato_influencia.grau"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_influencia"
+			            },
+			            "Object": {
+			              "Role": "fato_influencia.grau"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_influencias_have_graus"
+			        }
+			      ]
+			    },
+			    "fato_influencia_has_influencia": {
+			      "Binding": {
+			        "ConceptualEntity": "FatoInfluencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fato_influencia": {
+			          "Target": {
+			            "Entity": "fato_influencia"
+			          }
+			        },
+			        "fato_influencia.influencia": {
+			          "Target": {
+			            "Entity": "fato_influencia.influencia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fato_influencia"
+			            },
+			            "Object": {
+			              "Role": "fato_influencia.influencia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fato_influencias_have_influencias"
+			        }
+			      ]
+			    },
+			    "dim_plataforma_has_plataforma": {
+			      "Binding": {
+			        "ConceptualEntity": "DimPlataformas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_plataforma": {
+			          "Target": {
+			            "Entity": "dim_plataforma"
+			          }
+			        },
+			        "dim_plataforma.plataforma": {
+			          "Target": {
+			            "Entity": "dim_plataforma.plataforma"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_plataforma"
+			            },
+			            "Object": {
+			              "Role": "dim_plataforma.plataforma"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_plataformas_have_plataformas"
+			        }
+			      ]
+			    },
+			    "dim_plataforma_has_frequência": {
+			      "Binding": {
+			        "ConceptualEntity": "DimPlataformas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_plataforma": {
+			          "Target": {
+			            "Entity": "dim_plataforma"
+			          }
+			        },
+			        "dim_plataforma.frequência": {
+			          "Target": {
+			            "Entity": "dim_plataforma.frequência"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_plataforma"
+			            },
+			            "Object": {
+			              "Role": "dim_plataforma.frequência"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_plataformas_have_frequências"
+			        }
+			      ]
+			    },
+			    "dim_motivo_jogo_has_motivação": {
+			      "Binding": {
+			        "ConceptualEntity": "DimMotivoJogo"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_motivo_jogo": {
+			          "Target": {
+			            "Entity": "dim_motivo_jogo"
+			          }
+			        },
+			        "dim_motivo_jogo.motivação": {
+			          "Target": {
+			            "Entity": "dim_motivo_jogo.motivação"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_motivo_jogo"
+			            },
+			            "Object": {
+			              "Role": "dim_motivo_jogo.motivação"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_motivo_jogo_have_motivaçãos"
+			        }
+			      ]
+			    },
+			    "dim_usuario_has_altera_ambiente": {
+			      "Binding": {
+			        "ConceptualEntity": "DimUsuario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_usuario": {
+			          "Target": {
+			            "Entity": "dim_usuario"
+			          }
+			        },
+			        "dim_usuario.altera_ambiente": {
+			          "Target": {
+			            "Entity": "dim_usuario.altera_ambiente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.altera_ambiente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_usuarios_have_altera_ambientes"
+			        }
+			      ]
+			    },
+			    "dim_usuario_has_medo_fobia": {
+			      "Binding": {
+			        "ConceptualEntity": "DimUsuario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_usuario": {
+			          "Target": {
+			            "Entity": "dim_usuario"
+			          }
+			        },
+			        "dim_usuario.medo_fobia": {
+			          "Target": {
+			            "Entity": "dim_usuario.medo_fobia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.medo_fobia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_usuarios_have_medo_fobias"
+			        }
+			      ]
+			    },
+			    "dim_usuario_has_idade": {
+			      "Binding": {
+			        "ConceptualEntity": "DimUsuario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_usuario": {
+			          "Target": {
+			            "Entity": "dim_usuario"
+			          }
+			        },
+			        "dim_usuario.idade": {
+			          "Target": {
+			            "Entity": "dim_usuario.idade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.idade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_usuarios_have_idades"
+			        }
+			      ]
+			    },
+			    "dim_usuario_has_qual_o_seu_gênero": {
+			      "Binding": {
+			        "ConceptualEntity": "DimUsuario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_usuario": {
+			          "Target": {
+			            "Entity": "dim_usuario"
+			          }
+			        },
+			        "dim_usuario.qual_o_seu_gênero": {
+			          "Target": {
+			            "Entity": "dim_usuario.qual_o_seu_gênero"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.qual_o_seu_gênero"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_usuarios_have_qual_o_seu_gênero"
+			        }
+			      ]
+			    },
+			    "dim_usuario_has_user_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "DimUsuario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_usuario": {
+			          "Target": {
+			            "Entity": "dim_usuario"
+			          }
+			        },
+			        "dim_usuario.user_ID": {
+			          "Target": {
+			            "Entity": "dim_usuario.user_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.user_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_usuarios_have_user_ID"
+			        }
+			      ]
+			    },
+			    "dim_usuario_has_carimbo_de_data_hora": {
+			      "Binding": {
+			        "ConceptualEntity": "DimUsuario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_usuario": {
+			          "Target": {
+			            "Entity": "dim_usuario"
+			          }
+			        },
+			        "dim_usuario.carimbo_de_data_hora": {
+			          "Target": {
+			            "Entity": "dim_usuario.carimbo_de_data_hora"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_usuario"
+			            },
+			            "Object": {
+			              "Role": "dim_usuario.carimbo_de_data_hora"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_usuarios_have_carimbo_de_data_horas"
+			        }
+			      ]
+			    },
+			    "dim_generos_preferido_has_você_prefere_jogar_mais_jogos_de_terror_sozinho_ou_acompanhado_por_quê": {
+			      "Binding": {
+			        "ConceptualEntity": "DimGenerosPreferidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_generos_preferido": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido"
+			          }
+			        },
+			        "dim_generos_preferido.você_prefere_jogar_mais_jogos_de_terror_sozinho_ou_acompanhado_por_quê": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido.você_prefere_jogar_mais_jogos_de_terror_sozinho_ou_acompanhado_por_quê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_generos_preferido"
+			            },
+			            "Object": {
+			              "Role": "dim_generos_preferido.você_prefere_jogar_mais_jogos_de_terror_sozinho_ou_acompanhado_por_quê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_generos_preferidos_have_você_prefere_jogar_mais_jogos_de_terror_sozinho_ou_acompanhado_por_quê"
+			        }
+			      ]
+			    },
+			    "dim_generos_preferido_has_como_você_se_sente_quando_joga_acompanhado": {
+			      "Binding": {
+			        "ConceptualEntity": "DimGenerosPreferidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_generos_preferido": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido"
+			          }
+			        },
+			        "dim_generos_preferido.como_você_se_sente_quando_joga_acompanhado": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido.como_você_se_sente_quando_joga_acompanhado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_generos_preferido"
+			            },
+			            "Object": {
+			              "Role": "dim_generos_preferido.como_você_se_sente_quando_joga_acompanhado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_generos_preferidos_have_como_você_se_sente_quando_joga_acompanhado"
+			        }
+			      ]
+			    },
+			    "dim_generos_preferido_has_como_você_se_sente_quando_joga_sozinho": {
+			      "Binding": {
+			        "ConceptualEntity": "DimGenerosPreferidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_generos_preferido": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido"
+			          }
+			        },
+			        "dim_generos_preferido.como_você_se_sente_quando_joga_sozinho": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido.como_você_se_sente_quando_joga_sozinho"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_generos_preferido"
+			            },
+			            "Object": {
+			              "Role": "dim_generos_preferido.como_você_se_sente_quando_joga_sozinho"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_generos_preferidos_have_como_você_se_sente_quando_joga_sozinho"
+			        }
+			      ]
+			    },
+			    "dim_generos_preferido_has_quais_jogos_de_terror_você_não_gosta_por_quê": {
+			      "Binding": {
+			        "ConceptualEntity": "DimGenerosPreferidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_generos_preferido": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido"
+			          }
+			        },
+			        "dim_generos_preferido.quais_jogos_de_terror_você_não_gosta_por_quê": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido.quais_jogos_de_terror_você_não_gosta_por_quê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_generos_preferido"
+			            },
+			            "Object": {
+			              "Role": "dim_generos_preferido.quais_jogos_de_terror_você_não_gosta_por_quê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_generos_preferidos_have_quais_jogos_de_terror_você_não_gosta_por_quê"
+			        }
+			      ]
+			    },
+			    "dim_generos_preferido_has_quais_são_os_seus_jogos_de_terror_favoritos_por_quê": {
+			      "Binding": {
+			        "ConceptualEntity": "DimGenerosPreferidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_generos_preferido": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido"
+			          }
+			        },
+			        "dim_generos_preferido.quais_são_os_seus_jogos_de_terror_favoritos_por_quê": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido.quais_são_os_seus_jogos_de_terror_favoritos_por_quê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_generos_preferido"
+			            },
+			            "Object": {
+			              "Role": "dim_generos_preferido.quais_são_os_seus_jogos_de_terror_favoritos_por_quê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_generos_preferidos_have_quais_são_os_seus_jogos_de_terror_favoritos_por_quê"
+			        }
+			      ]
+			    },
+			    "dim_generos_preferido_has_quais_são_os_seus_jogos_favoritos_no_geral_por_quê": {
+			      "Binding": {
+			        "ConceptualEntity": "DimGenerosPreferidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_generos_preferido": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido"
+			          }
+			        },
+			        "dim_generos_preferido.quais_são_os_seus_jogos_favoritos_no_geral_por_quê": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido.quais_são_os_seus_jogos_favoritos_no_geral_por_quê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_generos_preferido"
+			            },
+			            "Object": {
+			              "Role": "dim_generos_preferido.quais_são_os_seus_jogos_favoritos_no_geral_por_quê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_generos_preferidos_have_quais_são_os_seus_jogos_favoritos_no_geral_por_quê"
+			        }
+			      ]
+			    },
+			    "dim_generos_preferido_has_se_você_não_joga_qual_o_motivo_que_te_impede": {
+			      "Binding": {
+			        "ConceptualEntity": "DimGenerosPreferidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_generos_preferido": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido"
+			          }
+			        },
+			        "dim_generos_preferido.se_você_não_joga_qual_o_motivo_que_te_impede": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido.se_você_não_joga_qual_o_motivo_que_te_impede"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_generos_preferido"
+			            },
+			            "Object": {
+			              "Role": "dim_generos_preferido.se_você_não_joga_qual_o_motivo_que_te_impede"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_generos_preferidos_have_se_você_não_joga_qual_o_motivo_que_te_impede"
+			        }
+			      ]
+			    },
+			    "dim_generos_preferido_has_por_qual_motivo_você_joga_jogos_de_terror": {
+			      "Binding": {
+			        "ConceptualEntity": "DimGenerosPreferidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_generos_preferido": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido"
+			          }
+			        },
+			        "dim_generos_preferido.por_qual_motivo_você_joga_jogos_de_terror": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido.por_qual_motivo_você_joga_jogos_de_terror"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_generos_preferido"
+			            },
+			            "Object": {
+			              "Role": "dim_generos_preferido.por_qual_motivo_você_joga_jogos_de_terror"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_generos_preferidos_have_por_qual_motivo_você_joga_jogos_de_terror"
+			        }
+			      ]
+			    },
+			    "dim_generos_preferido_has_exemplos_jogo_de_terror": {
+			      "Binding": {
+			        "ConceptualEntity": "DimGenerosPreferidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_generos_preferido": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido"
+			          }
+			        },
+			        "dim_generos_preferido.exemplos_jogo_de_terror": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido.exemplos_jogo_de_terror"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_generos_preferido"
+			            },
+			            "Object": {
+			              "Role": "dim_generos_preferido.exemplos_jogo_de_terror"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_generos_preferidos_have_exemplos_jogo_de_terrors"
+			        }
+			      ]
+			    },
+			    "dim_generos_preferido_has_quais_são_os_seus_subgêneros_de_terror_favoritos": {
+			      "Binding": {
+			        "ConceptualEntity": "DimGenerosPreferidos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_generos_preferido": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido"
+			          }
+			        },
+			        "dim_generos_preferido.quais_são_os_seus_subgêneros_de_terror_favoritos": {
+			          "Target": {
+			            "Entity": "dim_generos_preferido.quais_são_os_seus_subgêneros_de_terror_favoritos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_generos_preferido"
+			            },
+			            "Object": {
+			              "Role": "dim_generos_preferido.quais_são_os_seus_subgêneros_de_terror_favoritos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_generos_preferidos_have_quais_são_os_seus_subgêneros_de_terror_favoritos"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

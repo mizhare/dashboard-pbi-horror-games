@@ -1,0 +1,99 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 417.14670321775594,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "DimGenerosPreferidos",
+          "nodeLineageTag": "1093ffea-e8f1-459d-9d7a-4ff07000e693",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 520,
+            "y": 0
+          },
+          "nodeIndex": "DimUsuario",
+          "nodeLineageTag": "e18862e0-eb22-4ba9-9992-7dbc350692e5",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 993.11653700000011,
+            "y": 365.720245
+          },
+          "nodeIndex": "DimMotivoJogo",
+          "nodeLineageTag": "ef8b6160-f746-4e31-a161-638d024fef99",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1090.7999954223633,
+            "y": 24
+          },
+          "nodeIndex": "DimPlataformas",
+          "nodeLineageTag": "a14babef-2432-4c11-b8a9-12799279c612",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1374.7999954223633,
+            "y": 131
+          },
+          "nodeIndex": "FatoInfluencia",
+          "nodeLineageTag": "849bfbb4-a815-4880-87ad-3fe719d151f3",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1658.7999954223633,
+            "y": 146.8601225
+          },
+          "nodeIndex": "SubgenerosResumo",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 63.287087723234045,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

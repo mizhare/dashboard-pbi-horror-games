@@ -1,0 +1,55 @@
+table DimMotivoJogo
+	lineageTag: ef8b6160-f746-4e31-a161-638d024fef99
+
+	measure MotivacaoMaisFrequente =
+			
+			VAR TopValor =
+			    TOPN (
+			        1,
+			        SUMMARIZE (
+			            DimMotivoJogo,
+			            DimMotivoJogo[Motivação],
+			            "Qtd", COUNTROWS ( DimMotivoJogo )
+			        ),
+			        [Qtd],
+			        DESC
+			    )
+			RETURN
+			    MAXX (
+			        TopValor,
+			        DimMotivoJogo[Motivação]
+			    )
+		lineageTag: f862717c-0500-4abb-97fa-07338ceb525a
+
+	column User_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 45255a15-018e-4540-910b-104cf26f3e1f
+		summarizeBy: none
+		sourceColumn: User_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Motivação
+		dataType: string
+		lineageTag: 8eed17d1-20cc-4b93-8851-c81440aa670e
+		summarizeBy: none
+		sourceColumn: Motivação
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimMotivoJogo = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\Kamila\OneDrive\Documentos\Power BI\TCC Pat\DimMotivoJogo.xlsx"), null, true),
+				    Sheet13_Table = Fonte{[Item="Sheet13",Kind="Table"]}[Data],
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Sheet13_Table,{{"User_ID", Int64.Type}, {"Por qual motivo você joga jogos de terror?", type text}}),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Tipo Alterado",{{"Por qual motivo você joga jogos de terror?", "Motivação"}})
+				in
+				    #"Colunas Renomeadas"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,64 @@
+table DimGenerosPreferidos
+	lineageTag: 1093ffea-e8f1-459d-9d7a-4ff07000e693
+
+	measure SubgeneroMaisFrequente =
+			
+			VAR TopSubgenero =
+			    TOPN (
+			        1,
+			        SUMMARIZE (
+			            DimGenerosPreferidos,
+			            DimGenerosPreferidos[Quais são os seus subgêneros de terror favoritos?],
+			            "Qtd", COUNTROWS ( DimGenerosPreferidos )
+			        ),
+			        [Qtd],
+			        DESC
+			    )
+			RETURN
+			    MAXX (
+			        TopSubgenero,
+			        DimGenerosPreferidos[Quais são os seus subgêneros de terror favoritos?]
+			    )
+		lineageTag: 8057711e-e0fe-45dc-9d77-94bc1e5fa7ba
+
+	column User_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 0c117cd7-4f6a-4959-b277-7c148e79ee0f
+		summarizeBy: none
+		sourceColumn: User_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Quais são os seus subgêneros de terror favoritos?'
+		dataType: string
+		lineageTag: cd8189ec-9d6d-4f44-993f-e25f87877dbd
+		summarizeBy: none
+		sourceColumn: Quais são os seus subgêneros de terror favoritos?
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Exemplos jogo de terror'
+		dataType: string
+		lineageTag: a7c9f8a2-d60a-4691-bb13-a342491d81fc
+		summarizeBy: none
+		sourceColumn: Exemplos jogo de terror
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimGenerosPreferidos = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\Kamila\OneDrive\Documentos\Power BI\TCC Pat\DimGenerosPreferidos.xlsx"), null, true),
+				    Sheet1_Table = Fonte{[Item="Sheet1",Kind="Table"]}[Data],
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Sheet1_Table,{{"User_ID", Int64.Type}, {"Quais são os seus subgêneros de terror favoritos?", type text}, {"Exemplos jogo de terror", type text}, {"Por qual motivo você joga jogos de terror?", type text}, {"Se você não joga, qual o motivo que te impede? ", type text}, {"Quais são os seus jogos favoritos no geral? Por quê?", type text}, {"Quais são os seus jogos de terror favoritos? Por quê?", type text}, {"Quais jogos de terror você não gosta? Por quê?", type text}, {"Como você se sente quando joga sozinho?", type text}, {"Como você se sente quando joga acompanhado?", type text}, {"Você prefere jogar mais jogos de terror sozinho ou acompanhado? Por quê?", type text}}),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Tipo Alterado",{{"Se você não joga, qual o motivo que te impede? ", "Se você não joga, qual o motivo que te impede?"}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Colunas Renomeadas",{"Quais são os seus jogos de terror favoritos? Por quê?", "Quais são os seus jogos favoritos no geral? Por quê?", "Se você não joga, qual o motivo que te impede?", "Como você se sente quando joga acompanhado?", "Como você se sente quando joga sozinho?", "Por qual motivo você joga jogos de terror?", "Quais jogos de terror você não gosta? Por quê?", "Você prefere jogar mais jogos de terror sozinho ou acompanhado? Por quê?", "Column1"})
+				in
+				    #"Colunas Removidas"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

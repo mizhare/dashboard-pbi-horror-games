@@ -1,0 +1,64 @@
+table FatoInfluencia
+	lineageTag: 849bfbb4-a815-4880-87ad-3fe719d151f3
+
+	measure Top = CALCULATE(COUNT(FatoInfluencia[Grau]), FatoInfluencia[Grau] = 5)
+		formatString: 0
+		lineageTag: 957810f2-b0d9-4854-bab5-c4530d08099f
+
+	measure Top5 =
+			CALCULATE(
+			    COUNT(FatoInfluencia[Grau]),
+			    FatoInfluencia[Grau] >= 3
+			)
+		formatString: 0
+		lineageTag: 8ff27c45-e45e-490e-bace-eb7e0f67d3c7
+
+	column Influencia
+		dataType: string
+		lineageTag: 81e6694c-fa96-4592-bf7f-8a2d6ad7dfac
+		summarizeBy: none
+		sourceColumn: Influencia
+
+		annotation SummarizationSetBy = Automatic
+
+	column Grau
+		dataType: int64
+		formatString: 0
+		lineageTag: 75d1e3c0-bd5f-4da9-b6cf-ab268f2d78f2
+		summarizeBy: sum
+		sourceColumn: Grau
+
+		annotation SummarizationSetBy = Automatic
+
+	column Count
+		dataType: int64
+		formatString: 0
+		lineageTag: 16bbd2eb-2ef5-4b0e-bf3b-fe552b5d29cf
+		summarizeBy: sum
+		sourceColumn: Count
+
+		annotation SummarizationSetBy = Automatic
+
+	column User_ID
+		dataType: string
+		lineageTag: bd0de3bc-ccc5-404a-ab05-469e5de6529f
+		summarizeBy: none
+		sourceColumn: User_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	partition FatoInfluencia = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\Kamila\OneDrive\Documentos\Power BI\TCC Pat\FatoInfluencia.xlsx"), null, true),
+				    Sheet3_Sheet = Fonte{[Item="Sheet3",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Sheet3_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Influencia", type text}, {"Grau", Int64.Type}, {"Count", Int64.Type}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

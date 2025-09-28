@@ -1,0 +1,87 @@
+table DimPlataformas
+	lineageTag: a14babef-2432-4c11-b8a9-12799279c612
+
+	column User_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 606685b4-cfc8-4379-b58d-8f2bce2ac30d
+		summarizeBy: none
+		sourceColumn: User_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Frequência
+		dataType: string
+		lineageTag: 59f569fd-9f05-4303-a2c2-37708f5a68fa
+		summarizeBy: none
+		sourceColumn: Frequência
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column Plataforma
+		dataType: string
+		lineageTag: 883d0302-4581-4918-b4a6-039125fd447a
+		summarizeBy: none
+		sourceColumn: Plataforma
+
+		annotation SummarizationSetBy = Automatic
+
+	column Coluna
+		type: calculated
+		lineageTag: 57f57d87-9773-40db-a58e-9a7b0809746a
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column FrequenciaOrdem =
+			
+			SWITCH(
+			    TRUE(),
+			    DimPlataformas[Frequência] = "Nunca", 1,
+			    DimPlataformas[Frequência] = "Raramente", 2,
+			    DimPlataformas[Frequência] = "Mensal", 3,
+			    DimPlataformas[Frequência] = "Semanal", 4,
+			    DimPlataformas[Frequência] = "Todos os dias", 5,
+			    BLANK()
+			)
+		formatString: 0
+		lineageTag: d764e1e1-663d-4245-bf9d-a700a8c98ce5
+		summarizeBy: sum
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column FrequenciaOrdenada =
+			
+			SWITCH(
+			    TRUE(),
+			    DimPlataformas[Frequência] = "Nunca", "1 - Nunca",
+			    DimPlataformas[Frequência] = "Raramente", "2 - Raramente",
+			    DimPlataformas[Frequência] = "Mensal", "3 - Mensal",
+			    DimPlataformas[Frequência] = "Semanal", "4 - Semanal",
+			    DimPlataformas[Frequência] = "Todos os dias", "5 - Todos os dias"
+			)
+		lineageTag: 253edf7f-edcd-407f-a950-ade56912506f
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimPlataformas = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\Kamila\OneDrive\Documentos\Power BI\TCC Pat\DimPlataformas.xlsx"), null, true),
+				    Plataformas_Sheet = Fonte{[Item="Plataformas",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Plataformas_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"User_ID", Int64.Type}, {"Frequência_jogos_terror?", type text}, {"Qual plataforma você costuma jogar?", type text}}),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Tipo Alterado",{{"Frequência_jogos_terror?", "Frequência"}, {"Qual plataforma você costuma jogar?", "Plataforma"}})
+				in
+				    #"Colunas Renomeadas"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

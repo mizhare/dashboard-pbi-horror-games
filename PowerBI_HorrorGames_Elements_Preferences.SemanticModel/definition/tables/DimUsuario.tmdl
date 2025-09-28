@@ -1,0 +1,101 @@
+table DimUsuario
+	lineageTag: e18862e0-eb22-4ba9-9992-7dbc350692e5
+
+	measure AlteraAmbienteMaisFrequente =
+			
+			VAR TopValor =
+			    TOPN (
+			        1,
+			        SUMMARIZE (
+			            DimUsuario,
+			            DimUsuario[Altera ambiente],
+			            "Qtd", COUNTROWS ( DimUsuario )
+			        ),
+			        [Qtd],
+			        DESC
+			    )
+			RETURN
+			    MAXX (
+			        TopValor,
+			        DimUsuario[Altera ambiente]
+			    )
+		lineageTag: daa91bad-3d40-4950-8d1c-1e37d3c7a606
+
+	column 'Carimbo de data/hora'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: c1068883-9424-4cfb-ac99-7cd639644fdb
+		summarizeBy: none
+		sourceColumn: Carimbo de data/hora
+
+		variation Variation
+			isDefault
+			relationship: 50122af3-1f87-4075-b94d-b3c7a0837954
+			defaultHierarchy: LocalDateTable_ab3d4eba-c76d-41f1-812e-7e180c865299.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column User_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 91f4de5d-e695-4de0-aaea-5ad20ef720ce
+		summarizeBy: none
+		sourceColumn: User_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Qual o seu gênero?'
+		dataType: string
+		lineageTag: 95e75c61-0151-4ebc-93a5-d4916a48eae8
+		summarizeBy: none
+		sourceColumn: Qual o seu gênero?
+
+		annotation SummarizationSetBy = Automatic
+
+	column Idade
+		dataType: string
+		lineageTag: 20f67265-e368-415e-a397-31f781464293
+		summarizeBy: none
+		sourceColumn: Idade
+
+		annotation SummarizationSetBy = Automatic
+
+	column Medo/Fobia
+		dataType: string
+		lineageTag: 38e0b154-62ad-4c55-a9ba-1f3e433bd64d
+		summarizeBy: none
+		sourceColumn: Medo/Fobia
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Altera ambiente'
+		dataType: string
+		lineageTag: a83ec2eb-1800-4ae0-979e-c8bfa473d0cf
+		summarizeBy: none
+		sourceColumn: Altera ambiente
+
+		annotation SummarizationSetBy = Automatic
+
+	column Companhia
+		dataType: string
+		lineageTag: 16e6c46a-a004-4cc6-901c-6dbf340d9f00
+		summarizeBy: none
+		sourceColumn: Companhia
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimUsuario = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\Kamila\OneDrive\Documentos\Power BI\TCC Pat\DimUsuario.xlsx"), null, true),
+				    Sheet1_Sheet = Fonte{[Item="Sheet1",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Carimbo de data/hora", type datetime}, {"User_ID", Int64.Type}, {"Qual o seu gênero?", type text}, {"Idade", type text}, {"Medo/Fobia", type text}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

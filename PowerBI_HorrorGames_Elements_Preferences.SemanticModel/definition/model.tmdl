@@ -1,0 +1,25 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["DimGenerosPreferidos","DimUsuario","DimMotivoJogo","DimPlataformas","FatoInfluencia"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table DimGenerosPreferidos
+ref table DimUsuario
+ref table DateTableTemplate_288cfd8b-a5af-4726-bb0c-a30726393603
+ref table LocalDateTable_ab3d4eba-c76d-41f1-812e-7e180c865299
+ref table DimMotivoJogo
+ref table DimPlataformas
+ref table FatoInfluencia
+ref table SubgenerosResumo
+
+ref cultureInfo pt-BR
+

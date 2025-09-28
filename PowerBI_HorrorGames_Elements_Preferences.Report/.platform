@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "PowerBI_HorrorGames_Elements_Preferences"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "4cad77f8-6dd2-4e38-a840-f14a58c25760"
+  }
+}

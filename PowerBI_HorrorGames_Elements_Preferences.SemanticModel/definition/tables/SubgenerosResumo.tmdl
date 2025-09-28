@@ -1,0 +1,42 @@
+table SubgenerosResumo
+	lineageTag: a273d8d7-4885-4ec3-b019-8199bed28bbe
+
+	column 'Quais são os seus subgêneros de terror favoritos?'
+		lineageTag: 974328b2-72c6-4b7b-960c-9dd87bb34f13
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: DimGenerosPreferidos[Quais são os seus subgêneros de terror favoritos?]
+		sortByColumn: Qtd
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Exemplos jogo de terror'
+		lineageTag: eea28dde-4fd4-4189-8c20-a4b78138f484
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: DimGenerosPreferidos[Exemplos jogo de terror]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Qtd
+		formatString: 0
+		lineageTag: 3c78aaeb-809d-40c8-8499-a997873a616a
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Qtd]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition SubgenerosResumo = calculated
+		mode: import
+		source =
+				
+				SUMMARIZE(
+				    DimGenerosPreferidos,
+				    DimGenerosPreferidos[Quais são os seus subgêneros de terror favoritos?],
+				    DimGenerosPreferidos[Exemplos jogo de terror],
+				    "Qtd", COUNTROWS(DimGenerosPreferidos)
+				)
+
+	annotation PBI_Id = e4378c5282354dc09c473075103c8a9b
+

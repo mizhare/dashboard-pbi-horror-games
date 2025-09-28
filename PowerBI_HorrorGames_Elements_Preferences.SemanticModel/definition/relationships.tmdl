@@ -1,0 +1,21 @@
+relationship 50122af3-1f87-4075-b94d-b3c7a0837954
+	joinOnDateBehavior: datePartOnly
+	fromColumn: DimUsuario.'Carimbo de data/hora'
+	toColumn: LocalDateTable_ab3d4eba-c76d-41f1-812e-7e180c865299.Date
+
+relationship AutoDetected_85c6d767-36e4-4abe-b3bf-7402a8ab764d
+	fromColumn: DimGenerosPreferidos.User_ID
+	toColumn: DimUsuario.User_ID
+
+relationship AutoDetected_cbfbaafd-661d-4851-9455-ee05137b00bd
+	fromColumn: DimMotivoJogo.User_ID
+	toColumn: DimUsuario.User_ID
+
+relationship AutoDetected_d8f0fe7a-a0b1-4333-907c-14069d37c452
+	fromColumn: DimPlataformas.User_ID
+	toColumn: DimUsuario.User_ID
+
+relationship 027f24fc-b395-c646-72ed-7a03714d2cbc
+	fromColumn: FatoInfluencia.User_ID
+	toColumn: DimUsuario.User_ID
+
