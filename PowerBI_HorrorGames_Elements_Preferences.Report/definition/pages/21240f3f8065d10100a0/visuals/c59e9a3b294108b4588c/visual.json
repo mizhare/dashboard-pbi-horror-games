@@ -7,7 +7,7 @@
     "z": 8000,
     "height": 89.571029157236055,
     "width": 239.26507788576754,
-    "tabOrder": 7000
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "card",
@@ -233,5 +233,23 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "f0af179d1830310bccbe",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DimUsuario"
+              }
+            },
+            "Property": "AlteraAmbienteMaisFrequente"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
   }
 }

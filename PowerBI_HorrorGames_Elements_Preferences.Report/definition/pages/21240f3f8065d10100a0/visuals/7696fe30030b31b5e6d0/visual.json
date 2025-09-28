@@ -6,7 +6,8 @@
     "y": 85,
     "z": 1000,
     "height": 307.5,
-    "width": 601.25
+    "width": 601.25,
+    "tabOrder": 10000
   },
   "visual": {
     "visualType": "columnChart",
@@ -912,6 +913,53 @@
             }
           ]
         }
+      },
+      {
+        "name": "e12d17b6dc429461bece",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FatoInfluencia"
+              }
+            },
+            "Property": "Top"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "cc44b1b01dbe84a55140",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FatoInfluencia"
+              }
+            },
+            "Property": "Top5"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "bac190c0a8022dc9c1d1",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "FatoInfluencia"
+                  }
+                },
+                "Property": "Grau"
+              }
+            },
+            "Function": 5
+          }
+        },
+        "type": "Advanced"
       }
     ]
   }
