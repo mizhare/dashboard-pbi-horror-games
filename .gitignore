@@ -1,0 +1,12 @@
+# Power BI
+*.pbix
+*.pbit
+*.pbix.lock
+
+# Temp Windows
+Thumbs.db
+Desktop.ini
+*.tmp
+
+# Logs
+*.log
